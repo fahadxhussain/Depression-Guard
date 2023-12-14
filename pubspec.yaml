@@ -1,0 +1,43 @@
+name: depression_guard_app
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  flutter_bloc: ^8.0.0
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  equatable: ^2.0.0
+  carousel_slider: ^4.0.0
+  smooth_page_indicator: ^1.0.0+2
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Assistant
+      fonts: 
+        - asset: assets/fonts/AssistantRomanRegular.ttf
+          weight: 400
+    - family: Atma
+      fonts: 
+        - asset: assets/fonts/AtmaSemiBold.ttf
+          weight: 600
+    - family: Josefin Slab
+      fonts: 
+        - asset: assets/fonts/JosefinSlabRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/JosefinSlabRomanSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/JosefinSlabRomanRegular.ttf
+          weight: 400
